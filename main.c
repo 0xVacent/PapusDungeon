@@ -223,15 +223,6 @@ int main(){
         }
 
     }
-    if(currLevel == 2){
-            if(GetKeyState('G') & 0x8000){
-                system("cls");
-                mostrarListaPartida(partidaActual);
-                system("pause");
-                return 0;
-            }
-
-    }
     if(esAdmin == 1){
      if(GetKeyState('X') & 0x8000){
 
@@ -239,6 +230,10 @@ int main(){
         jugador.posY = 13;
         jugador.posX = 91;
         cantidadEnemigosActuales=0;
+     }
+     if(GetKeyState('H') & 0x8000){
+
+        jugador.hp = 20;
      }
     }
     printf("%i", itemSeleccionado.valor);
@@ -335,16 +330,16 @@ void runMap(char mapa[fil][col], player jugador, int * tickRate, nodoPartida * u
         case 22:
                 if(itemSeleccionado.tipo == 1){
                         if(itemSeleccionado.valor > 0){
-                    printf(YEL"    que te da +%i de vida"WHT, itemSeleccionado.valor);
+                    printf(YEL"    que te da +%i de vida %c"WHT, itemSeleccionado.valor, 30);
                 }else{
-                    printf(YEL"    que te da %i de vida"WHT, itemSeleccionado.valor);
+                    printf(YEL"    que te da %i de vida %c"WHT, itemSeleccionado.valor, 31);
                     }
                 }
                 if(itemSeleccionado.tipo == 2){
                     if(itemSeleccionado.valor > 0){
-                        printf(YEL"    que te da +%i de cooldown"WHT, itemSeleccionado.valor);
+                        printf(YEL"    que te da +%i de cooldown %c"WHT, itemSeleccionado.valor, 31);
                     }else{
-                        printf(YEL"    que te da %i de cooldown"WHT, itemSeleccionado.valor);
+                        printf(YEL"    que te da %i de cooldown %c"WHT, itemSeleccionado.valor, 30);
                     }
                 }
                 break;
@@ -1074,7 +1069,7 @@ void menuInicial() {
             printf("Ingrese el nombre del usuario\n");
             fflush(stdin);
             gets(aux12.nombreJugador);
-            printf("Ingrese la contraseña del usuario\n");
+            printf("Ingrese la contraseï¿½a del usuario\n");
             fflush(stdin);
             gets(aux12.contraseniaJugador);
             rev=iniciarSesion(ARCHIVO_USUARIOS,aux12);
@@ -1272,7 +1267,8 @@ item crearItem(){
     aux.tipo = 0;
     aux.valor = 0;
     while(aux.tipo != 1 && aux.tipo != 2){
-        printf("Ingrese que tipo de item quiere crear: (1 = vida, 2 = velocidad de disparo)\n");
+        system("cls");
+        printf("Ingrese que tipo de item quiere crear:\n(1 = vida, 2 = velocidad de disparo)\n");
         fflush(stdin);
         scanf("%i",&aux.tipo);
 
@@ -1281,7 +1277,7 @@ item crearItem(){
         }
     }
 
-    printf("Ingrese el cuanto quiere cambiar el valor: (Puede ser un valor negativo o positivo)\n");
+    printf("Ingrese el cuanto quiere cambiar el valor:\n(Puede ser un valor negativo o positivo)\n");
     fflush(stdin);
     scanf("%i",&aux.valor);
     return aux;
@@ -1299,7 +1295,7 @@ void cargarArchivoItems(){
 
             fwrite(&itemAux, sizeof(item), 1, archi);
 
-            printf("Desea crear otro item? 1 o 0\n");
+            printf("Ingrese 1 para crear otro item\n Ingrese otra cosa para salir\n");
             fflush(stdin);
             scanf("%i", &eleccion);
         }
@@ -1349,14 +1345,6 @@ nodoItem * buscarUltimoItem(nodoItem * lista){
     return rta;
 }
 
-/*
-typedef struct{
-    int posY;
-    int posX;
-    int hp;
-    int attack;
-    int potion;
-}player;
-*/
+
 
 
