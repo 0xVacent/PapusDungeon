@@ -1,0 +1,263 @@
+# depslib dependency file v1.0
+1698981740 source:d:\codigo\papusmarketstealer\main.c
+	<stdlib.h>
+	<stdio.h>
+
+1699025735 source:f:\papus_heist\main.c
+	<stdlib.h>
+	<stdio.h>
+
+1699229228 source:e:\papus_heist\main.c
+	<stdlib.h>
+	<stdio.h>
+
+1700811028 source:d:\descargas\papus_heist\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700228687 source:c:\users\usuario\downloads\elpapuheist-main\elpapuheist-main\main.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+
+1700334964 source:d:\descargas\papus_heist\elpapuheist\main.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+
+1700761509 d:\descargas\papus_heist\color.h
+
+1700768886 d:\descargas\papus_heist\auxiliares.h
+
+1700768835 source:d:\descargas\papus_heist\auxiliares.c
+	"auxiliares.h"
+	<stdio.h>
+	<stdlib.h>
+
+1700800966 d:\descargas\papus_heist\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700803179 source:d:\descargas\papus_heist\libusuario.c
+	"libUsuario.h"
+
+1700804728 source:d:\descargas\papus_heist\mapcreator.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	"color.h"
+	<string.h>
+
+1700791952 d:\descargas\papus_heist\mapcreator.h
+	<windows.h>
+
+1700817391 source:c:\users\confi\desktop\elpapuheist-main\libusuario.c
+	"libUsuario.h"
+
+1700817391 c:\users\confi\desktop\elpapuheist-main\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700817391 source:c:\users\confi\desktop\elpapuheist-main\mapcreator.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	"color.h"
+	<string.h>
+
+1700817391 c:\users\confi\desktop\elpapuheist-main\mapcreator.h
+	<windows.h>
+
+1700817391 c:\users\confi\desktop\elpapuheist-main\color.h
+
+1700824351 source:c:\users\confi\desktop\elpapuheist-main\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700817392 source:c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	"color.h"
+	<string.h>
+
+1700817392 c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.h
+	<windows.h>
+
+1700817392 c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\color.h
+
+1700834062 source:c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.c
+	"libUsuario.h"
+
+1700834082 c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700834143 source:c:\users\usuario\desktop\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700834064 source:e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.c
+	"libUsuario.h"
+
+1700834084 e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700838112 source:e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700817392 e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.h
+	<windows.h>
+
+1700817392 e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\color.h
+
+1700837718 source:e:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	"color.h"
+	<string.h>
+
+1700834064 source:d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.c
+	"libUsuario.h"
+
+1700840448 d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700837718 source:d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	"color.h"
+	<string.h>
+
+1700817392 d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.h
+	<windows.h>
+
+1700817392 d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\color.h
+
+1700839908 source:d:\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700873772 source:c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.c
+	"libUsuario.h"
+
+1700874277 c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700873772 source:c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700873878 c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+
+1700873770 c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\color.h
+
+1700874426 source:c:\users\alber\documents\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.c
+	"mapCreator.h"
+	"color.h"
+
+1700890474 source:d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.c
+	"libUsuario.h"
+
+1700889922 d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\libusuario.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+
+1700891835 source:d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\main.c
+	"mapCreator.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+	"libUsuario.h"
+
+1700873880 d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	"color.h"
+
+1700873772 d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\color.h
+
+1700874428 source:d:\codigo\hernan cerillano, dante valicenti, luen oliva, ezequiel garcia. tp final\mapcreator.c
+	"mapCreator.h"
+	"color.h"
+
