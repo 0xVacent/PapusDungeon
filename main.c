@@ -127,6 +127,12 @@ nodoPartida * buscarUltimo(nodoPartida * lista, int * sala);
 void defensa(arma * armaAux, player jugador, char mapa[fil][col], int * tickrate);
 void detectarColision(arma armaAux, npc * enemy, char mapa[fil][col], int * cantidadEnemigosActuales, player * jugador, proyectile balas[100]);
 void menuInicial();
+void elegirItemRandom();
+void leerArchivoItems();
+void ultiJugador(player * jugador, char mapa[fil][col]);
+void cargarArchivoItems();
+void leerArchivoPlantilla();
+
 //MAIN
 
 int main(){
